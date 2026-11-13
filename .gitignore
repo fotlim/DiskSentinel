@@ -1,0 +1,28 @@
+# 构建产物
+bin/
+obj/
+publish/
+dist/
+
+# 安装包临时文件
+*.tmp
+*.log
+boot_debug.log
+
+# 运行时数据
+Data/
+_pstest/
+
+# 诊断工具（不发布）
+Probe/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
